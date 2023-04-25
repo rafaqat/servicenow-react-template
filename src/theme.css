@@ -1,0 +1,49 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  /* Colors */
+  --white : #ffffff;
+  --primary-font-color: #202c3d;
+  --primary-font : #202c3d;
+  --active-font-color: #6236ff;
+  --btn-primary-color: #0fd36a;
+  --btn-secondary-color: #2ea2f8;
+  --btn-danger-color: #fa3c3d;
+  --chart-data-primary-color: #01058a;
+  --chart-data-secondary-color: #4ec4fb;
+  --chart-line-color: #e7e8f2;
+  --card-outline-color: #f2f2f2;
+  --card-container-color: #f7fafd;
+  --border-color: #979797;
+  --border-color-light: #d7dfe9;
+  --bg-content-fill: #e7ebf1;
+  --drop-shadow-color: #001022;
+  --kpi-card-color: #e8efff;
+  --icon-bd-color: #19c1c2;
+  --nav-bg-color: #1f1f72;
+  --nav-active-color: #8750de;
+  --primary-focus-color: #2ea2f8;
+  --secondary-focus-color: #ed7e17;
+  --chart-secondary-label-color: #50c2f5;
+  --nav-bg-color: #1f1f72;
+  --nav-active-color: #8750de;
+
+  /* Fonts */
+  --font-type: "Rubik", sans-serif;
+  --font-size-base: 16px;
+  --font-size-xxs: 10px;
+  --font-size-xs: 12px;
+  --font-size-s: 14px;
+  --font-size-m: 20px;
+  --font-size-l: 24px;
+  --font-size-xl: 36px;
+  --font-size-xxl: 48px;
+  --font-size-xxxl: 60px;
+}

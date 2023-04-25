@@ -1,0 +1,76 @@
+{
+  "name": "react-template-project",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://dev169922.service-now.com",
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@babel/core": "7.4.3",
+    "@svgr/webpack": "4.1.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^5.4.5",
+    "axios": "^1.3.6",
+    "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "css-loader": "^4.3.0",
+    "dotenv": "^10.0.0",
+    "eslint-loader": "^4.0.2",
+    "html-react-parser": "^1.4.9",
+    "html-webpack-plugin": "4.0.0-beta.5",
+    "lodash.intersectionby": "^4.7.0",
+    "mini-css-extract-plugin": "^1.3.0",
+    "optimize-css-assets-webpack-plugin": "5.0.1",
+    "pnp-webpack-plugin": "1.2.1",
+    "postcss": "^8.3.6",
+    "postcss-flexbugs-fixes": "4.1.0",
+    "postcss-loader": "3.0.0",
+    "postcss-normalize": "7.0.1",
+    "postcss-preset-env": "6.6.0",
+    "postcss-safe-parser": "4.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^18.2.0",
+    "react-dev-utils": "^9.0.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "^5.0.0",
+    "storeon": "^3.1.5",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "1.2.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.40.0",
+    "webpack-dev-server": "3.2.1",
+    "webpack-manifest-plugin": "2.0.4",
+    "workbox-webpack-plugin": "4.2.0"
+  },
+  "scripts": {
+    "start": "node scripts/start.js",
+    "start2": "react-scripts start",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "base64-inline-loader": "^1.1.1"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  }
+}
